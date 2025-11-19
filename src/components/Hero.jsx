@@ -7,15 +7,14 @@ function Hero() {
   return (
     <div
     id="hero"
-    className="pb-10 pt-36 pl-5 pr-5 
-               bg-gradient-to-b from-purple-200 to-purple-50"
+    className="pb-10 pt-36 pl-5 pr-5 bg-black"
   >
     <div className="text-center">
       <h1 className="text-black font-bold text-purple-700 text-[32px] mb-7">
         QUANTHEX
       </h1>
   
-      <h1 className="text-[16px] md:text-[20px]">
+      <h1 className="text-[16px] md:text-[20px] text-white">
         Build maximum hash power and turn <br />
         QUANTHEX into your ultimate wealth- <br />
         generating engine.
@@ -31,11 +30,7 @@ function Hero() {
       </div>
   
       <div className="justify-center mt-8">
-        {/* <img
-          src="/IMG_9710.PNG"
-          alt=""
-          className="w-[300px] md:w-[450px] mx-auto"
-        /> */}
+        
         <img src={Images1} alt="" className="w-[300px] md:w-[450px] mx-auto"/>
       </div>
     </div>
